@@ -1,16 +1,32 @@
 {
-    "name": "pclzip/pclzip",
-    "type": "library",
-    "description": "A PHP library that offers compression and extraction functions for Zip formatted archives",
-    "keywords": ["php", "zip"],
-    "homepage": "http://www.phpconcept.net/pclzip",
-    "license": ["LGPL-2.1"],
-    "authors": [
-        {
-            "name": "Vincent Blavet"
+    "name" : "vinades/pclzip",
+    "type" : "library",
+    "description" : "A PHP library that offers compression and extraction functions for Zip formatted archives",
+    "keywords" : [
+        "php",
+        "zip"
+    ],
+    "homepage" : "https://vinades.vn/",
+    "license" : "LGPL-2.1",
+    "authors" : [{
+            "name" : "Vincent Blavet"
+        }, {
+            "name" : "VINADES.,JSC",
+            "email" : "contact@vinades.vn",
+            "homepage" : "https://vinades.vn/",
+            "role" : "Modifier"
         }
     ],
-    "autoload": {
-        "classmap": ["pclzip.lib.php"]
+    "autoload" : {
+        "classmap" : [
+            "pclzip.lib.php"
+        ]
+    },
+    "support" : {
+        "source" : "https://github.com/vinades/pclzip",
+        "issues" : "https://github.com/nukeviet/nukeviet/issues",
+        "wiki" : "https://github.com/vinades/pclzip/wiki",
+        "forum" : "http://forum.nukeviet.vn/",
+        "email" : "contact@vinades.vn"
     }
 }
